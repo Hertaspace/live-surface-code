@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live surface code with spacetime MWPM</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body class="panels-hidden">
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<script src="../src/mwpm.js"></script>
+<script src="../src/surface.js"></script>
+<script src="../src/view.js"></script>
+<script>
+  const view = window.bgViews.surface;
+  view.showMode(true);
+  view.start();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "live-surface-code",
+  "version": "1.0.0",
+  "description": "A real-time surface code simulation decoded by spacetime minimum-weight perfect matching, in plain JavaScript",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "test": "node test/matching.test.js && node test/stream.test.js && node test/misread.test.js",
+    "threshold": "node test/threshold.js",
+    "window": "node test/window.js"
+  }
+}
